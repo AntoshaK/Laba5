@@ -1,0 +1,38 @@
+main-size = 700px
+set-bg-color(color)
+  background-color color
+body
+  set-bg-color(#164B69)
+  font-size 14px
+  font-family arial serif
+  text-indent 20px
+  line-height 2
+  word-spacing 5px
+
+.main
+  width 80%
+  margin auto
+  padding 10px
+  set-bg-color(#E3E3E3)
+  min-width main-size
+  min-height main-size
+
+.menu
+  display flex
+  justify-content space-evenly
+
+.menu div
+  width 10em
+  height 2em
+
+.menu div
+  text-align center
+
+nav a
+  text-decoration none
+  color black
+  font-weight bold
+
+.menu div
+  &:hover
+    set-bg-color(#DCDCDC)

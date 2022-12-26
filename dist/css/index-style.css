@@ -1,0 +1,26 @@
+.content {
+    padding: 5px;
+}
+.block {
+    margin: 10px 0 0 0;
+    float: right;
+}
+.menu-item1{
+    background-color: #DCDCDC;
+}
+
+.video{
+    display: block;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+@media(max-width: 600px){
+    .block{
+        float: none;
+        clear: both;
+    }
+    .video{
+        margin: 0;
+    }
+}
